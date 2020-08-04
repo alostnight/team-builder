@@ -1,7 +1,11 @@
 .App {
   text-align: center;
+  
 }
 
+body {
+  background-color: rgb(77, 236, 241);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -38,23 +42,44 @@
 }
 
 form {
+
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 20rem;
+}
+
+.team {
+  background: lightblue;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 16px auto;
+  text-align: center;
+  
 }
 
 label {
+  color: black;
   width: 50%;
   text-align: center;
   margin: 1rem;
+  font-size: 1.5rem;
 }
 
 input {
-  width: 75%;
+  width: 100%;
+  max-width: 300px;
   text-align: center;
 }
 
 button {
+  width: 10rem;
+  height: 4rem;
   margin: 1rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: red;
   
 }

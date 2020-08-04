@@ -40,13 +40,13 @@ const LogForm = props => {
         name="name"
         value={formState.name}
         onChange={changeHandler}
-        placeholder="This is the name of the team member."
+        placeholder="Enter Name."
       />
       <label htmlFor="email">Email:</label>
       <input
         type="text"
         name="email"
-        placeholder="This is the email of the team meber."
+        placeholder="Enter Email."
         value={formState.email}
         onChange={changeHandler}
       />
@@ -54,7 +54,7 @@ const LogForm = props => {
       <input
         type="text"
         name="role"
-        placeholder="This is the role of the team meber."
+        placeholder="What Is Their Role."
         value={formState.role}
         onChange={changeHandler}
       />
